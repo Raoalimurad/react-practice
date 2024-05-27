@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: bisque;
+  padding: 9px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.contact{
+  margin-top: 90px;
+  text-align: center;
+}
+.contact div input{
+  width: 230px;
+  padding: 8px;
+  margin-bottom: 15px;
+border-radius: 6px;
+
+}
+.contact div button{
+  width: 120px;
+  padding: 8px;
+  background-color: bisque;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.showData{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+  background-color:rgb(230, 185, 130) ;
+  padding: 12px;
+  margin-bottom: 9px;
+  font-size: 23px;
+}
+.contactHeading{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.btn{
+  cursor: pointer;
+}
